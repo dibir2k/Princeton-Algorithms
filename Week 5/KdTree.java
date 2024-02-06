@@ -1,4 +1,3 @@
-// package KDTree.src;
 import java.util.ArrayList;
 import java.util.List;
 import edu.princeton.cs.algs4.Point2D;

@@ -1,7 +1,5 @@
-// package KDTree.src;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
-import edu.princeton.cs.algs4.StdDraw;
 
 import java.util.ArrayList;
 import java.util.List;
