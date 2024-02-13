@@ -18,16 +18,6 @@ public class SAP {
         if (G == null) throw new IllegalArgumentException("Null argument provided.");
 
         sap = new Digraph(G);
-
-        // DirectedCycle cGraph = new DirectedCycle(sap);
-
-        // boolean isRoot = false;
-
-        // for (int v = 0; v < sap.V(); v++) {
-        //     if (sap.outdegree(v) == 0) isRoot = true;
-        // }
-
-        // if (cGraph.hasCycle() && !isRoot) throw new IllegalArgumentException("Does not correspond to a rooted DAG");
     }
 
     private int[] calcLengthDist(Iterable<Integer> v, Iterable<Integer> w) {
@@ -146,7 +136,6 @@ public class SAP {
     // do unit testing of this class
     public static void main(String[] args) {
         In in = new In(args[0]);
-        // In in = new In("/Users/diogobirra/Desktop/Coursera-Algorithms/WordNet/Files/digraph1.txt");
         Digraph G = new Digraph(in);
         SAP sap = new SAP(G);
         while (!StdIn.isEmpty()) {

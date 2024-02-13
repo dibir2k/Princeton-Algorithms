@@ -30,15 +30,6 @@ public class Outcast {
     
     // see test client below
     public static void main(String[] args) {
-        // String args0 = "/Users/diogobirra/Desktop/Coursera-Algorithms/WordNet/Files/synsets.txt";
-        // String args1 = "/Users/diogobirra/Desktop/Coursera-Algorithms/WordNet/Files/hypernyms.txt";
-        // String args2 = "/Users/diogobirra/Desktop/Coursera-Algorithms/WordNet/Files/outcast5.txt";
-        // String args3 = "/Users/diogobirra/Desktop/Coursera-Algorithms/WordNet/Files/outcast8.txt";
-        // String args4 = "/Users/diogobirra/Desktop/Coursera-Algorithms/WordNet/Files/outcast11.txt";
-
-        // String[] arg = new String[5];
-        // arg[0] = args0; arg[1] = args1; arg[2] = args2; arg[3] = args3; arg[4] = args4;
-
         WordNet wordnet = new WordNet(args[0], args[1]);
         // WordNet wordnet = new WordNet(args[0], args[1]);
         Outcast outcast = new Outcast(wordnet);

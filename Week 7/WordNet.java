@@ -107,10 +107,6 @@ public class WordNet {
 
         WordNet wn = new WordNet(synsets, hypernyms);
 
-        // for (String noun : wn.nouns()) {
-        //     StdOut.println(noun + "\n");
-        // }
-
         String word = "yolk";
         boolean isThere = wn.isNoun(word);
 
